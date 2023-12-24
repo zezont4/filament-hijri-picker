@@ -14,7 +14,7 @@ This package is based on Filament Date/DateTime picker for use with Hijri dates.
 You can install the package via composer:
 
 ```bash
-composer require mohamedsabil83/filament-hijri-picker
+composer require zezont4/filament-hijri-picker
 ```
 
 ## Usage
