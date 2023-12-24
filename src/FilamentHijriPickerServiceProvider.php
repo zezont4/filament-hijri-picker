@@ -2,11 +2,12 @@
 
 namespace MohamedSabil83\FilamentHijriPicker;
 
-use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentHijriPickerServiceProvider extends PluginServiceProvider
+class FilamentHijriPickerServiceProvider extends PackageServiceProvider
 {
+    public static string $name = 'filament-hijri';
     protected array $beforeCoreScripts = [
         'filament-hijri-picker' => __DIR__.'/../resources/dist/js/hijri-date-time-picker.js',
     ];
